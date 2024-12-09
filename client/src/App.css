@@ -1,5 +1,17 @@
+body {
+  background-image: url('./block-chain-image-2.jpeg'); /* Ensure the image path is correct */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Change text color for better visibility */
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +47,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.left-section, .right-section {
+  width: 48%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2); /* Slight transparency for sections */
+  border-radius: 8px;
+  color: #fff;
 }
